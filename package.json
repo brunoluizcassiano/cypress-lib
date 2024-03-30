@@ -1,0 +1,17 @@
+{
+  "name": "cypress-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "node ./node_modules/test-acceptance-cypress/scripts/run.js",
+    "cypress:open": "node ./node_modules/test-acceptance-cypress/scripts/openCypress.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "test-acceptance-cypress": "^1.0.57"
+  }
+}
